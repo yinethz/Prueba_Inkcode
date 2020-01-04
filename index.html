@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <meta charset="utf-8">
+   <title>Landing</title>
+   <meta name="viewport"
+      content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=3.0, minium-scale=1.0">
+   <link rel="stylesheet" href="assets/css/estilos.css">
+
+</head>
+
+<body>
+   <header class="main-header">
+      <div class="contenedor">
+         <div class="wrapper-icono-top">
+            <h3 class="icono-linea">Síguenos</h3>
+            <a href="https://www.facebook.com/InkCodecorp/" class="icono icono-mini"><img
+                  src="assets/images/icons/4prueba.png"></img></a>
+            <a href="https://www.instagram.com/inkcodecorp" class="icono icono-mini"><img
+                  src="assets/images/icons/5prueba.png"></img></a>
+            <a href="https://www.youtube.com/" class="icono icono-mini"><img
+                  src="assets/images/icons/6prueba.png"></img></a>
+
+         </div>
+      </div>
+   </header>
+
+   <div class="container">
+      <img src="assets/images/identidad_corporativa/logo_ink_code_corp.png" alt="" class="banner__img_logo">
+   </div>
+   <nav class="main-nav">
+      <div class="wrapper-menu">
+         <ul class="menu" id="menu">
+            <li class="menu__item"> <a href="#nosotros" class="menu__link">Nosotros</a></li>
+            <li class="menu__item"> <a href="#servicios" class="menu__link">Servicios</a></li>
+            <li class="menu__item"> <a href="#contacto" class="menu__link">Contacto</a></li>
+         </ul>
+      </div>
+   </nav>
+   <main>
+      <section class="container-btn">
+         <img src="assets/images/banners/banner_01.png" alt="" class="banner__img">
+         <a href="#modal2" class="btn btn--contact">VER MÁS</a>
+         <a href="#modal1" class="btn btn--contact">CONTACTO</a>
+      </section>
+      <div class="footer">
+         <div class="contenedor">
+            <div class="social">
+               <a href="https://www.facebook.com/InkCodecorp/" class="icono"><img
+                     src="assets/images/icons/4prueba.png"></img></a>
+               <a href="https://www.instagram.com/inkcodecorp" class="icono"><img
+                     src="assets/images/icons/5prueba.png"></img></a>
+               <a href="https://www.youtube.com/" class="icono"><img src="assets/images/icons/6prueba.png"></img></a>
+               <h3>Síguenos</h3>
+            </div>
+         </div>
+      </div>
+      <footer class="main-header">
+         <p class="copy"> Términos y Condiciones \ Política de Privacidad</p>
+      </footer>
+   </main>
+
+   <div class="modal-wrapper" id="modal1">
+      <div class="contenedor-modal">
+         <figure class="imagen-contacto">
+            <img src="assets/images/banners/contacto.png" alt="contacto">
+         </figure>
+         <div class="wrapper-formulario">
+            <h2 class="titulo-1">¿Quieres hacer parte de nuestro equipo?</h2>
+            <p class="parrafo-1">
+               Si eres proactivo, amable, con talentos comerciales y don de gente,
+               envíanos tus datos y nos pondremos en contacto contigo.
+            </p>
+            <form id="formContacto">
+               <div class="dos-columnas">
+                  <div class="wrapper-campo">
+                     <label class="label-formulario">Nombres:</label>
+                     <input class="campo-formulario" type="text" id="txtNombres" placeholder="Nombres" maxlength="50"
+                        required />
+                  </div>
+                  <div class="wrapper-campo">
+                     <label class="label-formulario">Apellidos:</label>
+                     <input class="campo-formulario" type="text" id="txtApellidos" placeholder="Apellidos"
+                        maxlength="50" required />
+                  </div>
+               </div>
+               <div class="dos-columnas">
+                  <div class="wrapper-campo">
+                     <label class="label-formulario">Celular:</label>
+                     <input class="campo-formulario" type="number" id="txtCelular" placeholder="Celular" min="999999999"
+                        max="9999999999" required />
+                  </div>
+                  <div class="wrapper-campo">
+                     <label class="label-formulario">Correo electrónico:</label>
+                     <input class="campo-formulario" type="email" id="eilCorreo" placeholder="Email" required />
+                  </div>
+               </div>
+               <div class="una-columna">
+                  <div class="wrapper-campo">
+                     <input class="campo-formulario campo-adjuntar" type="text" id="txtHojaVida"
+                        placeholder="Seleccionar CV" readonly />
+                     <label id="btnAdjuntar" class="btn-adjuntar">Adjuntar</label>
+                  </div>
+                  <input type="file" id="fleHojaVida" class="input-file" accept=".pdf" />
+               </div>
+               <div class="dos-columnas">
+                  <button class="btn-enviar">Enviar</button>
+               </div>
+            </form>
+         </div>
+         <a class="btn-cerrar-modal" href="#">X</a>
+      </div>
+   </div>
+
+   <div class="modal-wrapper" id="modal2">
+      <div class="contenedor-modal">
+         <div class="banner">
+         <img src="assets/images/ver_mas/09.png" alt="" class="img_banner">
+         <div class="contenedor contenedor-titulo">
+            <h2 class="banner__titulo">Tendencias de Diseño Gráfico 2019</h2>
+            <p class="banner__txt">8 tendencias de diseño gráfico que protagonizarán 2019</p>
+         </div>
+      </div>
+
+      <main class="main">
+         <div class="contenedor">
+            <section class="info margen-inferior-imagen">
+               <article class="info__columna">
+                  <img src="assets/images/ver_mas/08.png" alt="" class="info__img">
+                  <p class="info__txt">Explosión de colores vivos. Amarillos eléctricos, corales brillantes, azules
+                     vivos.</p>
+               </article>
+
+               <article class="info__columna">
+                  <img src="assets/images/ver_mas/07.png" alt="" class="info__img">
+                  <p class="info__txt">Fuertes puntos focales tipográficos.</p>
+               </article>
+
+               <article class="info__columna">
+                  <img src="assets/images/ver_mas/01.png" alt="" class="info__img">
+                  <p class="info__txt">Influencia futurista.</p>
+               </article>
+            </section>
+            <section class="info margen-inferior-imagen">
+               <article class="info__columna">
+                  <img src="assets/images/ver_mas/02.png" alt="" class="info__img">
+                  <p class="info__txt">Esquemas de color claro y oscuro. ...</p>
+               </article>
+
+               <article class="info__columna">
+                  <img src="assets/images/ver_mas/03.png" alt="" class="info__img">
+                  <p class="info__txt">Degradados complejos y duotonos.</p>
+               </article>
+
+               <article class="info__columna">
+                  <img src="assets/images/ver_mas/04.png" alt="" class="info__img">
+                  <p class="info__txt">Minimalismo colorido.</p>
+               </article>
+            </section>
+            <section class="info">
+               <article class="info__columna">
+                  <img src="assets/images/ver_mas/05.png" alt="" class="info__img">
+                  <p class="info__txt">Ilustraciones dinámicas y detalladas, hechas a mano.</p>
+               </article>
+
+               <article class="info__columna">
+                  <img src="assets/images/ver_mas/06.png" alt="" class="info__img">
+                  <p class="info__txt">Fotografía auténtica y genuina.</p>
+               </article>
+            </section>
+
+            <section class="info_inko">
+               <article class="info__columna">
+                  <img src="assets/images/identidad_corporativa/Ink Code Corplogo.png" alt="" class="info__img_logo">
+               </article>
+            </section>
+         </div>
+      </main>
+      <footer class="footer">
+        <div class="contenedor">
+          <div class="social">
+            <a href="https://www.facebook.com/InkCodecorp/" class="icono"><img src="assets/images/icons/4prueba.png"></img></a>
+            <a href="https://www.instagram.com/inkcodecorp" class="icono"><img src="assets/images/icons/5prueba.png"></img></a>
+            <a href="https://www.youtube.com/" class="icono"><img src="assets/images/icons/6prueba.png" ></img></a>
+            <h3>Síguenos</h3>
+          </div>
+        </div>
+      </footer>
+         <a class="btn-cerrar-modal" href="#">X</a>
+      </div>
+   </div>
+
+   <script type="text/javascript" src="assets/js/peticion.js"></script>
+</body>
+
+</html>
